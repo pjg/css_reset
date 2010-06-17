@@ -1,0 +1,122 @@
+/* ------------------------------------------------------------------------------*/
+/*  CSS RESET STYLESHEET                                                         */
+/*                                                                               */
+/*  http://github.com/pjg/css_reset                                              */
+/*                                                                               */
+/*  Copyright (c) 2010 Paweł Gościcki, released under the MIT license            */
+/* ----------------------------------------------------------------------------- */
+
+
+/* -- LAYOUT -- */
+
+html, body, div, form, fieldset, div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+    margin: 1.5em 0;
+    padding: 0;
+}
+
+li, dd, blockquote {
+    margin-left: 2.5em;
+}
+
+acronym {
+    padding-bottom: 1px;
+}
+
+fieldset {
+    margin: 1em 0 2em;
+    padding: 0.3em 0 0.4em 0.6em;
+}
+
+input.button {
+    padding: 0.3em 0.8em;
+}
+
+input.text {
+    padding: 0.2em;
+}
+
+label {
+    vertical-align: 5%;
+}
+
+label.blocking {
+    display: block;
+}
+
+select {
+    vertical-align: 0%;
+}
+
+textarea {
+    padding: 0.2em;
+}
+
+
+/* -- TYPOGRAPHY -- */
+
+html, body, form, fieldset, textarea, select, input {
+    font: 100%/120% Verdana, Helvetica, Arial, sans-serif;
+}
+
+a:hover, a:active {
+    outline: none;
+}
+
+code, pre {
+    font-size: 125%;
+}
+
+fieldset legend {
+    font-family: helvetica, arial, verdana, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 150%
+}
+
+h2 {
+    font-size: 125%;
+}
+
+h3 {
+    font-size: 100%;
+}
+
+h4 {
+    font-size: 87.5%;
+}
+
+input.button {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+
+/* -- COLORS -- */
+
+a img {
+    border: none;
+}
+
+acronym {
+    border-bottom: 1px dotted #444;
+    cursor: help;
+}
+
+form label, form label acronym {
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+}
+
+fieldset legend {
+    color: #222;
+}
