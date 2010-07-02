@@ -9,9 +9,8 @@
 
 <body>
 
-<h1>CSS Reset</h1>
+<h1>h1 CSS Reset</h1>
 
-<h1>h1 paragraph</h1>
 <h2>h2 paragraph</h2>
 <h3>h3 paragraph</h3>
 <h4>h4 paragraph</h4>
@@ -42,22 +41,29 @@
 <form action="">
 <div>
 <fieldset>
-<legend>Legenda</legend>
+<legend>Legend</legend>
 <p>
 <label class="blocking" for="input-text">Label blocking:</label>
-<input id="input-text" type="text" class="text" value="text input" />
+<input id="input-text" type="text" value="normal text input" />
+<input id="input-text-short" type="text" class="short" value="short text input" />
+<input id="input-text-number" type="text" class="number" value="number text input" />
 </p>
 
 <p>
-<input id="input-checkbox" type="checkbox" class="checkbox" />
-<label for="input-checkbox">label checkbox</label>
+<label class="blocking" for="input-password">Password:</label>
+<input id="input-password" type="password" value="password input" />
+</p>
+
+<p>
+<input id="input-checkbox" type="checkbox" />
+<label class="inline" for="input-checkbox">label inline for checkbox</label>
 </p>
 
 <p>
 <label for="input-select">label select</label>
 <select>
-<option>Opcja 1</option>
-<option>Opcja 2</option>
+<option>Option 1</option>
+<option>Option 2</option>
 </select>
 </p>
 
@@ -65,8 +71,15 @@
 <textarea>Textarea</textarea>
 </p>
 
+<p>Radio buttons<br />
+<label><input type="radio" name="group" value="1">button one</label><br />
+<label><input type="radio" name="group" value="2">button two</label><br />
+<label><input type="radio" name="group" value="3">button three</label><br />
+</p>
+
 <p>
-<input type="button" class="button" value="Przycisk" />
+<input type="submit" value="Submit" />
+<input type="button" value="Button" />
 </p>
 
 </fieldset>
@@ -76,4 +89,3 @@
 </body>
 
 </html>
-

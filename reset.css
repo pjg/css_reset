@@ -32,24 +32,37 @@ fieldset {
     padding: 0.3em 0 0.4em 0.6em;
 }
 
-input.button {
-    padding: 0.3em 0.8em;
+input[type="button"], input[type="submit"] {
+    padding: 0.4em 0.9em;
 }
 
-input.text {
+input[type="checkbox"] {
+    vertical-align: -5%;
+}
+
+input[type="radio"] {
+    margin-right: 0.5em;
+}
+
+input[type="text"], input[type="password"] {
     padding: 0.2em 0.3em;
+    width: 35em;
 }
 
-label {
-    vertical-align: 5%;
+input[type="text"].number {
+    width: 2.5em;
+}
+
+input[type="text"].short, input[type="password"] {
+    width: 15em;
 }
 
 label.blocking {
     display: block;
 }
 
-select {
-    vertical-align: 0%;
+label.inline {
+    display: inline;
 }
 
 textarea {
@@ -92,9 +105,8 @@ h4 {
     font-size: 87.5%;
 }
 
-input.button {
-    font-size: 110%;
-    font-weight: bold;
+input[type="text"].number {
+    text-align: center;
 }
 
 
