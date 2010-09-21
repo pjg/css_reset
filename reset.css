@@ -9,17 +9,17 @@
 
 /* -- LAYOUT -- */
 
-html, body, div, form, fieldset, div {
+html, body, fieldset, form, div {
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+address, blockquote, dl, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
     margin: 1.5em 0;
     padding: 0;
 }
 
-li, dd, blockquote {
+blockquote, dd, li {
     margin-left: 2.5em;
 }
 
@@ -44,7 +44,7 @@ input[type="radio"] {
     margin-right: 0.5em;
 }
 
-input[type="text"], input[type="password"] {
+input[type="password"], input[type="text"] {
     padding: 0.2em 0.3em;
     width: 35em;
 }
@@ -53,7 +53,7 @@ input[type="text"].number {
     width: 2.5em;
 }
 
-input[type="text"].short, input[type="password"] {
+input[type="password"], input[type="text"].short {
     width: 15em;
 }
 
@@ -72,7 +72,7 @@ textarea {
 
 /* -- TYPOGRAPHY -- */
 
-html, body, form, fieldset, textarea, select, input {
+html, body, fieldset, form, input, select, textarea {
     font: 100%/120% Verdana, Helvetica, Arial, sans-serif;
 }
 
