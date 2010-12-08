@@ -37,7 +37,7 @@ input[type="button"], input[type="submit"] {
 }
 
 input[type="checkbox"] {
-    vertical-align: -5%;
+    vertical-align: text-top;
 }
 
 input[type="radio"] {
@@ -55,6 +55,10 @@ input[type="text"].number {
 
 input[type="password"], input[type="text"].short {
     width: 15em;
+}
+
+label {
+    line-height: 100%;
 }
 
 label.blocking {
