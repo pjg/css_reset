@@ -60,21 +60,21 @@
 </p>
 
 <p>
-<label for="input-select">label select</label>
-<select>
+<label for="select">label select</label>
+<select id="select">
 <option>Option 1</option>
 <option>Option 2</option>
 </select>
 </p>
 
 <p>
-<textarea>Textarea</textarea>
+<textarea rows="3" cols="30">Textarea</textarea>
 </p>
 
 <p>Radio buttons<br />
-<label><input type="radio" name="group" value="1">button one</label><br />
-<label><input type="radio" name="group" value="2">button two</label><br />
-<label><input type="radio" name="group" value="3">button three</label><br />
+<label><input type="radio" name="group" value="1" />button one</label><br />
+<label><input type="radio" name="group" value="2" />button two</label><br />
+<label><input type="radio" name="group" value="3" />button three</label><br />
 </p>
 
 <p>
@@ -85,6 +85,43 @@
 </fieldset>
 </div>
 </form>
+
+
+
+<h2>75%/12px area</h2>
+
+<div style="font-size: 75%;">
+
+<form action="">
+<div>
+<p>
+<input id="input-other-checkbox" type="checkbox" />
+<label class="inline" for="input-other-checkbox">label inline for checkbox</label>
+</p>
+
+<p>
+<label for="other-select">label select</label>
+<select id="other-select">
+<option>Option 1</option>
+<option>Option 2</option>
+</select>
+</p>
+
+<p>Radio buttons<br />
+<label><input type="radio" name="other-group" value="1" />button one</label><br />
+<label><input type="radio" name="other-group" value="2" />button two</label><br />
+<label><input type="radio" name="other-group" value="3" />button three</label><br />
+</p>
+
+<p>
+<input type="submit" value="Submit" />
+<input type="button" value="Button" />
+</p>
+</div>
+</form>
+
+</div>
+
 
 </body>
 

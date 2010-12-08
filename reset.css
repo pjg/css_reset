@@ -37,7 +37,7 @@ input[type="button"], input[type="submit"] {
 }
 
 input[type="checkbox"] {
-    vertical-align: text-top;
+    vertical-align: middle;
 }
 
 input[type="radio"] {
@@ -58,7 +58,7 @@ input[type="password"], input[type="text"].short {
 }
 
 label {
-    line-height: 100%;
+    vertical-align: middle;
 }
 
 label.blocking {
@@ -71,6 +71,10 @@ label.inline {
 
 textarea {
     padding: 0.2em;
+}
+
+select {
+    vertical-align: middle;
 }
 
 
