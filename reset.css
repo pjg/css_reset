@@ -132,3 +132,7 @@ fieldset {
 fieldset legend {
     color: #222;
 }
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    cursor: pointer;
+}
