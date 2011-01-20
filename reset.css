@@ -27,7 +27,7 @@ blockquote, dd, li {
     margin-left: 2.5em;
 }
 
-acronym {
+abbr {
     padding-bottom: 1px;
 }
 
@@ -128,12 +128,12 @@ a img {
     border: none;
 }
 
-acronym {
+abbr {
     border-bottom: 1px dotted #444;
     cursor: help;
 }
 
-form label, form label acronym {
+form label, form label abbr {
     cursor: pointer;
 }
 
