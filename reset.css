@@ -3,7 +3,7 @@
 /*                                                                               */
 /*  http://github.com/pjg/css_reset                                              */
 /*                                                                               */
-/*  Copyright (c) 2010 Paweł Gościcki, released under the MIT license            */
+/*  Copyright (c) 2010-2011 Paweł Gościcki, released under the MIT license       */
 /* ----------------------------------------------------------------------------- */
 
 
@@ -12,6 +12,10 @@
 html, body, fieldset, form, div {
     margin: 0;
     padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
 address, blockquote, dl, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
